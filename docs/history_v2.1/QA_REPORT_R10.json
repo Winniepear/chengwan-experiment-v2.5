@@ -1,0 +1,83 @@
+{
+  "date": "2026-09-08",
+  "version": "V2.1/R10/Q10/PRETEST-W3",
+  "node": "v22.16.0",
+  "api_tests": {
+    "total": 16,
+    "passed": 16,
+    "failed": 0,
+    "engine": "actual api-core.mjs against SQLite translation adapter; PostgreSQL advisory locks not exercised"
+  },
+  "build": "npm run build PASS",
+  "javascript_syntax": "PASS",
+  "source_content_and_assets": "city,post,tags,3 city images,7 avatars,commenter identities unchanged from R9",
+  "pre_post_matching": "same headings,instructions,item titles,anchors,help,scale; variable phase differs",
+  "document": {
+    "pages": 14,
+    "all_24_texts_match_config": true,
+    "all_matched_PAD_fields_present": true
+  },
+  "spreadsheet": {
+    "sheets": 7,
+    "group_character_totals": [
+      315,
+      340,
+      340,
+      355
+    ],
+    "formula_errors": 0
+  },
+  "browser": {
+    "environment": "Offline Chromium: real source HTML/CSS/JS, Python fetch binding to actual local API with SQLite adapter; local PNG data URIs; original 25/25/45 sec timers; test quota=1. Not native browser network/Netlify test.",
+    "results": [
+      {
+        "width": 768,
+        "group": "G3",
+        "matched_pre_post_text": true,
+        "post_default_empty": true,
+        "local_backend_saved": true,
+        "page_errors": [],
+        "overflow": false,
+        "submitted": true
+      },
+      {
+        "width": 320,
+        "group": "G4",
+        "matched_pre_post_text": true,
+        "post_default_empty": true,
+        "local_backend_saved": true,
+        "page_errors": [],
+        "overflow": false,
+        "submitted": true
+      },
+      {
+        "width": 1366,
+        "group": "G2",
+        "matched_pre_post_text": true,
+        "post_default_empty": true,
+        "local_backend_saved": true,
+        "page_errors": [],
+        "overflow": false,
+        "submitted": true
+      },
+      {
+        "width": 390,
+        "group": "G1",
+        "matched_pre_post_text": true,
+        "post_default_empty": true,
+        "local_backend_saved": true,
+        "page_errors": [],
+        "overflow": false,
+        "submitted": true
+      }
+    ],
+    "production_tested": false
+  },
+  "warnings": [
+    "Chromium network navigation blocked by local administrator policy; used offline HTML/CSS/JS and Python fetch binding to localhost API with original PNG data URIs.",
+    "A transport callback warned TargetClosedError during test-context teardown; all four flows and admin/export assertions completed; no in-page JS error recorded.",
+    "npm registry installation/lock resolution failed EAI_AGAIN; SDK packaging and production deployment not tested."
+  ],
+  "production_postgresql_concurrency_tested": false,
+  "human_manipulation_validation": false
+}

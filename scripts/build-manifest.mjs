@@ -1,0 +1,10 @@
+import fs from "node:fs";
+import path from "node:path";
+import crypto from "node:crypto";
+import { fileURLToPath } from "node:url";
+const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)),"..");
+const files = ["config/study.json","config/questionnaire_Q13_29items.json","config/research_targets.json","config/comment_fact_ledger.json","public/index.html","public/admin.html","public/app.js","public/admin.js","public/styles.css","netlify/functions/api.mjs","netlify/functions/lib/api-core.mjs","netlify/functions/lib/scoring.mjs","netlify.toml","package.json","scripts/sync-config.mjs","scripts/validate.mjs","scripts/build-manifest.mjs","netlify/database/migrations/202607280001_create_experiment_tables.sql",...fs.readdirSync(path.join(root,"public/assets")).sort().map(n=>`public/assets/${n}`)];
+const manifest={generated_at:new Date().toISOString(),files:files.map(rel=>{const buf=fs.readFileSync(path.join(root,rel));return{path:rel.replace(/^public\//,""),source_path:rel,public_url:rel.startsWith("public/")?"/"+rel.slice(7):null,sha256:crypto.createHash("sha256").update(buf).digest("hex"),size:buf.length};})};
+fs.writeFileSync(path.join(root,"material_manifest.json"),JSON.stringify(manifest,null,2));
+fs.writeFileSync(path.join(root,"netlify/functions/lib/material-manifest.mjs"),`export default ${JSON.stringify(manifest,null,2)};\n`);
+console.log(`material manifest: ${manifest.files.length} files`);

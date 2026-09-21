@@ -1,0 +1,88 @@
+
+> chengwan-h5-netlify-fullstack@2.0.0 test
+> node --test tests/*.test.mjs
+
+TAP version 13
+# (node:4468) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: public config includes Q9; no condition labels or other-condition comments
+ok 1 - public config includes Q9; no condition labels or other-condition comments
+  ---
+  duration_ms: 21.133953
+  type: 'test'
+  ...
+# Subtest: full pretest flow persists open text, PAD and derived wide export
+ok 2 - full pretest flow persists open text, PAD and derived wide export
+  ---
+  duration_ms: 21.539973
+  type: 'test'
+  ...
+# Subtest: optional open answer can be skipped and remains null
+ok 3 - optional open answer can be skipped and remains null
+  ---
+  duration_ms: 10.298432
+  type: 'test'
+  ...
+# Subtest: open text refuses oversized and structured payloads without advancing page
+ok 4 - open text refuses oversized and structured payloads without advancing page
+  ---
+  duration_ms: 6.493411
+  type: 'test'
+  ...
+# Subtest: group assignment is idempotent; quotas fill each group once
+ok 5 - group assignment is idempotent; quotas fill each group once
+  ---
+  duration_ms: 17.14904
+  type: 'test'
+  ...
+# Subtest: old-wave or old-revision sessions cannot be resumed, rewritten or shown new stimuli
+ok 6 - old-wave or old-revision sessions cannot be resumed, rewritten or shown new stimuli
+  ---
+  duration_ms: 3.282114
+  type: 'test'
+  ...
+# Subtest: missing PAD values stay blank in CSV, not spurious standardized scores
+ok 7 - missing PAD values stay blank in CSV, not spurious standardized scores
+  ---
+  duration_ms: 2.906087
+  type: 'test'
+  ...
+# Subtest: admin authentication protects data and health; source config not publicly exported
+ok 8 - admin authentication protects data and health; source config not publicly exported
+  ---
+  duration_ms: 2.206153
+  type: 'test'
+  ...
+# Subtest: cannot skip baseline, submit early, or overwrite condition via page endpoint
+ok 9 - cannot skip baseline, submit early, or overwrite condition via page endpoint
+  ---
+  duration_ms: 4.974062
+  type: 'test'
+  ...
+# Subtest: CSV formula injection is escaped; current schema does not need a new migration
+ok 10 - CSV formula injection is escaped; current schema does not need a new migration
+  ---
+  duration_ms: 7.232514
+  type: 'test'
+  ...
+# Subtest: formal mode skips pretest free-text and category pages, retains core PAD
+ok 11 - formal mode skips pretest free-text and category pages, retains core PAD
+  ---
+  duration_ms: 7.109509
+  type: 'test'
+  ...
+# Subtest: 24 approved R9 comment hashes and shared first sentences
+ok 12 - 24 approved R9 comment hashes and shared first sentences
+  ---
+  duration_ms: 1.022701
+  type: 'test'
+  ...
+1..12
+# tests 12
+# suites 0
+# pass 12
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 167.630512

@@ -1,0 +1,204 @@
+TAP version 13
+# (node:2282) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: public config has exactly 29 questions and hides other groups/targets
+ok 1 - public config has exactly 29 questions and hides other groups/targets
+  ---
+  duration_ms: 73.084539
+  type: 'test'
+  ...
+# Subtest: health is public and correctly does not claim a database check
+ok 2 - health is public and correctly does not claim a database check
+  ---
+  duration_ms: 1.916575
+  type: 'test'
+  ...
+# Subtest: consent refusal exits with only one raw answer and never exposes materials
+ok 3 - consent refusal exits with only one raw answer and never exposes materials
+  ---
+  duration_ms: 11.510822
+  type: 'test'
+  ...
+# Subtest: underage or failed combined eligibility cannot proceed
+ok 4 - underage or failed combined eligibility cannot proceed
+  ---
+  duration_ms: 8.333069
+  type: 'test'
+  ...
+# Subtest: consent missing data is not coerced to adult eligible answers
+ok 5 - consent missing data is not coerced to adult eligible answers
+  ---
+  duration_ms: 4.362403
+  type: 'test'
+  ...
+# Subtest: planning is mandatory before city pages; skipping steps fails
+ok 6 - planning is mandatory before city pages; skipping steps fails
+  ---
+  duration_ms: 23.513183
+  type: 'test'
+  ...
+# Subtest: planning range, nulls, booleans, objects and wrong-page fields are rejected
+ok 7 - planning range, nulls, booleans, objects and wrong-page fields are rejected
+  ---
+  duration_ms: 17.626666
+  type: 'test'
+  ...
+# Subtest: planning repeated identical save is idempotent but changed answers are locked
+ok 8 - planning repeated identical save is idempotent but changed answers are locked
+  ---
+  duration_ms: 5.294005
+  type: 'test'
+  ...
+# Subtest: combined baseline requires two brand plus all three self scores
+ok 9 - combined baseline requires two brand plus all three self scores
+  ---
+  duration_ms: 6.015295
+  type: 'test'
+  ...
+# Subtest: baseline follows shared post; planning and baseline save timestamps precede randomization
+ok 10 - baseline follows shared post; planning and baseline save timestamps precede randomization
+  ---
+  duration_ms: 15.166649
+  type: 'test'
+  ...
+# Subtest: randomization checks persisted planning/baseline even when step is manually advanced
+ok 11 - randomization checks persisted planning/baseline even when step is manually advanced
+  ---
+  duration_ms: 18.531969
+  type: 'test'
+  ...
+# Subtest: randomized pre values cannot be overwritten and only assigned comments are returned
+ok 12 - randomized pre values cannot be overwritten and only assigned comments are returned
+  ---
+  duration_ms: 23.896417
+  type: 'test'
+  ...
+# Subtest: 29 raw answers only; post aliases match; planning and PAD scoring exported
+ok 13 - 29 raw answers only; post aliases match; planning and PAD scoring exported
+  ---
+  duration_ms: 43.006401
+  type: 'test'
+  ...
+# Subtest: wrong attention/category/risk answers do not screen out or block submission
+ok 14 - wrong attention/category/risk answers do not screen out or block submission
+  ---
+  duration_ms: 28.671494
+  type: 'test'
+  ...
+# Subtest: deleted fields are rejected instead of hidden-but-required
+ok 15 - deleted fields are rejected instead of hidden-but-required
+  ---
+  duration_ms: 20.633444
+  type: 'test'
+  ...
+# Subtest: final checks enforce only six valid fields; category/attention range validated
+ok 16 - final checks enforce only six valid fields; category/attention range validated
+  ---
+  duration_ms: 9.415135
+  type: 'test'
+  ...
+# Subtest: post aliases cannot be supplied or override canonical scores
+ok 17 - post aliases cannot be supplied or override canonical scores
+  ---
+  duration_ms: 12.603977
+  type: 'test'
+  ...
+# Subtest: partial records export missing planning/post/memory/attention as empty
+ok 18 - partial records export missing planning/post/memory/attention as empty
+  ---
+  duration_ms: 13.701994
+  type: 'test'
+  ...
+# Subtest: canonical metadata is saved, survives config changes and is immutable to clients
+ok 19 - canonical metadata is saved, survives config changes and is immutable to clients
+  ---
+  duration_ms: 8.678667
+  type: 'test'
+  ...
+# Subtest: legacy R10/R9/R8 rows remain original; unmeasured planning stays empty
+ok 20 - legacy R10/R9/R8 rows remain original; unmeasured planning stays empty
+  ---
+  duration_ms: 8.557231
+  type: 'test'
+  ...
+# Subtest: admin endpoints require token and all four exports are available
+ok 21 - admin endpoints require token and all four exports are available
+  ---
+  duration_ms: 38.156083
+  type: 'test'
+  ...
+# Subtest: CSV formula injection in legacy text is escaped and typed negative numbers stay numeric
+ok 22 - CSV formula injection in legacy text is escaped and typed negative numbers stay numeric
+  ---
+  duration_ms: 31.577085
+  type: 'test'
+  ...
+# Subtest: premature completion, fabricated backend variables and malformed body rejected
+ok 23 - premature completion, fabricated backend variables and malformed body rejected
+  ---
+  duration_ms: 3.982244
+  type: 'test'
+  ...
+# Subtest: events preserve stimulus hash; unknown identifiers cannot write data
+ok 24 - events preserve stimulus hash; unknown identifiers cannot write data
+  ---
+  duration_ms: 38.103035
+  type: 'test'
+  ...
+# Subtest: quota transaction path: uniform among open groups, four assignments, same session no re-draw
+ok 25 - quota transaction path: uniform among open groups, four assignments, same session no re-draw
+  ---
+  duration_ms: 128.810609
+  type: 'test'
+  ...
+# Subtest: planning all three required, zero/out-of-range not silently used
+ok 26 - planning all three required, zero/out-of-range not silently used
+  ---
+  duration_ms: 5.655574
+  type: 'test'
+  ...
+# Subtest: brand allows one missing but not two; visit requires both
+ok 27 - brand allows one missing but not two; visit requires both
+  ---
+  duration_ms: 0.415753
+  type: 'test'
+  ...
+# Subtest: paired PAD endpoints and scaling are exact; never clip delta to [-1,1]
+ok 28 - paired PAD endpoints and scaling are exact; never clip delta to [-1,1]
+  ---
+  duration_ms: 1.408981
+  type: 'test'
+  ...
+# Subtest: historical alias never synthesizes canonical post or pre
+ok 29 - historical alias never synthesizes canonical post or pre
+  ---
+  duration_ms: 0.385894
+  type: 'test'
+  ...
+# Subtest: alias conflicts flagged without modifying answers
+ok 30 - alias conflicts flagged without modifying answers
+  ---
+  duration_ms: 0.481375
+  type: 'test'
+  ...
+# Subtest: Q13 missing attention is NULL and unmeasured memory is NULL, not failed
+ok 31 - Q13 missing attention is NULL and unmeasured memory is NULL, not failed
+  ---
+  duration_ms: 0.593337
+  type: 'test'
+  ...
+# Subtest: each eligible scale is 1-7 integer and conversion does not accept arrays/booleans
+ok 32 - each eligible scale is 1-7 integer and conversion does not accept arrays/booleans
+  ---
+  duration_ms: 1.518903
+  type: 'test'
+  ...
+1..32
+# tests 32
+# suites 0
+# pass 32
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 1011.546285

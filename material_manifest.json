@@ -1,0 +1,201 @@
+{
+  "generated_at": "2026-09-21T16:23:58.167Z",
+  "files": [
+    {
+      "path": "config/study.json",
+      "source_path": "config/study.json",
+      "public_url": null,
+      "sha256": "3fb03ac53deb18466355df0c6df130c9d97e072eaca813c00443f67b065b726d",
+      "size": 40766
+    },
+    {
+      "path": "config/questionnaire_Q13_29items.json",
+      "source_path": "config/questionnaire_Q13_29items.json",
+      "public_url": null,
+      "sha256": "12dc5748add92da6d3a2eca6b004ef6a43ad28d19077ae4eb16082570d7d7fe4",
+      "size": 26234
+    },
+    {
+      "path": "config/research_targets.json",
+      "source_path": "config/research_targets.json",
+      "public_url": null,
+      "sha256": "d398959c2d1062aefe609336e324bd9c054d8005e726cf97bb99ccda24f616f2",
+      "size": 1120
+    },
+    {
+      "path": "config/comment_fact_ledger.json",
+      "source_path": "config/comment_fact_ledger.json",
+      "public_url": null,
+      "sha256": "e4957b596d34663078e13395bd505355037d6e0c0f320793d62b00f54097ea69",
+      "size": 1065
+    },
+    {
+      "path": "index.html",
+      "source_path": "public/index.html",
+      "public_url": "/index.html",
+      "sha256": "57f5d8aaad0bcc70700591bf976464fea4e0f001d29a74a3da1b42936c464e18",
+      "size": 1138
+    },
+    {
+      "path": "admin.html",
+      "source_path": "public/admin.html",
+      "public_url": "/admin.html",
+      "sha256": "21375fe866fd681cb09acfa58dc04e21cd3a65950f450c50c67587c808810484",
+      "size": 2263
+    },
+    {
+      "path": "app.js",
+      "source_path": "public/app.js",
+      "public_url": "/app.js",
+      "sha256": "7db63416bb288464efcefb530dde580e3542c6c422472636cdfa80f5333755d6",
+      "size": 22145
+    },
+    {
+      "path": "admin.js",
+      "source_path": "public/admin.js",
+      "public_url": "/admin.js",
+      "sha256": "76e1d089ea8f38189f6db121f8dd2b043dc873835b743835e2c92720c8d89c6a",
+      "size": 3890
+    },
+    {
+      "path": "styles.css",
+      "source_path": "public/styles.css",
+      "public_url": "/styles.css",
+      "sha256": "af4ba12da19adf266308e3eabefe8121e13875664400c03dc9388140d3c3267d",
+      "size": 14597
+    },
+    {
+      "path": "netlify/functions/api.mjs",
+      "source_path": "netlify/functions/api.mjs",
+      "public_url": null,
+      "sha256": "5661bf92531d04276d6115e8532f868da783bea043d0cef8f0a46779e9a6b4e8",
+      "size": 517
+    },
+    {
+      "path": "netlify/functions/lib/api-core.mjs",
+      "source_path": "netlify/functions/lib/api-core.mjs",
+      "public_url": null,
+      "sha256": "8ac4d75df10f9c39f2b7b01e5cc0b0cf7386a84359ce3ca5eee5054a265e4022",
+      "size": 21834
+    },
+    {
+      "path": "netlify/functions/lib/scoring.mjs",
+      "source_path": "netlify/functions/lib/scoring.mjs",
+      "public_url": null,
+      "sha256": "9be240f094fd57551351c57b9cb51c25d99cbdfc5127e7c67674ec434199abc4",
+      "size": 3008
+    },
+    {
+      "path": "netlify.toml",
+      "source_path": "netlify.toml",
+      "public_url": null,
+      "sha256": "c3193ecf574809bd09daaad9d683b2d154b2329faf95cbbea6759bc38b72dbbe",
+      "size": 1736
+    },
+    {
+      "path": "package.json",
+      "source_path": "package.json",
+      "public_url": null,
+      "sha256": "3f4b80c1142c92c53da7a1c2b43eef0d98d81907075c02d5850ac78d289bdd8f",
+      "size": 679
+    },
+    {
+      "path": "scripts/sync-config.mjs",
+      "source_path": "scripts/sync-config.mjs",
+      "public_url": null,
+      "sha256": "07db85c8b847476716a8466c4c844deeb585b8415907d92d386efdf102791e22",
+      "size": 641
+    },
+    {
+      "path": "scripts/validate.mjs",
+      "source_path": "scripts/validate.mjs",
+      "public_url": null,
+      "sha256": "64504ba26b17256e53efa96d39e6d72c6e6d43182067e05cd1727eceaded5a41",
+      "size": 4247
+    },
+    {
+      "path": "scripts/build-manifest.mjs",
+      "source_path": "scripts/build-manifest.mjs",
+      "public_url": null,
+      "sha256": "37f89d73d59695767391e0833c1e950459b9ca795afedb55771c72fc23b66827",
+      "size": 1429
+    },
+    {
+      "path": "netlify/database/migrations/202607280001_create_experiment_tables.sql",
+      "source_path": "netlify/database/migrations/202607280001_create_experiment_tables.sql",
+      "public_url": null,
+      "sha256": "4ebb53d471847c7b738b5d1e34ea70af646a62d9b8daaaf74e236fc9fe699e0e",
+      "size": 2486
+    },
+    {
+      "path": "assets/avatar_c1.png",
+      "source_path": "public/assets/avatar_c1.png",
+      "public_url": "/assets/avatar_c1.png",
+      "sha256": "aa28fdfd326d677fca3b0a68326c36d7a689cdd73f72258f740c130c4dc572de",
+      "size": 411655
+    },
+    {
+      "path": "assets/avatar_c2.png",
+      "source_path": "public/assets/avatar_c2.png",
+      "public_url": "/assets/avatar_c2.png",
+      "sha256": "cf12ffe18ac98e0c7ad90bae353a32faf297b9b18a9d7dd51658b6def06e3f67",
+      "size": 7487
+    },
+    {
+      "path": "assets/avatar_c3.png",
+      "source_path": "public/assets/avatar_c3.png",
+      "public_url": "/assets/avatar_c3.png",
+      "sha256": "dab31674a9562ce5ddff8637a3d9bca9fc3e2c9516651d0066dfbd9f554ad87f",
+      "size": 8110
+    },
+    {
+      "path": "assets/avatar_c4.png",
+      "source_path": "public/assets/avatar_c4.png",
+      "public_url": "/assets/avatar_c4.png",
+      "sha256": "71222091b6d217d527ae3c02b7e33ec180daaaa95b978d4ad60bfa8e5d7b2fe1",
+      "size": 368275
+    },
+    {
+      "path": "assets/avatar_c5.png",
+      "source_path": "public/assets/avatar_c5.png",
+      "public_url": "/assets/avatar_c5.png",
+      "sha256": "1d34a38c54069c140270450b1b4ec6dcfbfeaece2884e16dd5b54e9bc6ee55ff",
+      "size": 8691
+    },
+    {
+      "path": "assets/avatar_c6.png",
+      "source_path": "public/assets/avatar_c6.png",
+      "public_url": "/assets/avatar_c6.png",
+      "sha256": "4df35e1b069130796416b4dbb515057ba5d0594ca4429b85a2b371f9ddc558cb",
+      "size": 602919
+    },
+    {
+      "path": "assets/avatar_publisher.png",
+      "source_path": "public/assets/avatar_publisher.png",
+      "public_url": "/assets/avatar_publisher.png",
+      "sha256": "2d2364858a8041acd8845bcab5be4b1d3f2d82516fb2966caefb6c0567807347",
+      "size": 181944
+    },
+    {
+      "path": "assets/i01.png",
+      "source_path": "public/assets/i01.png",
+      "public_url": "/assets/i01.png",
+      "sha256": "80acb8bdbe3dc745a872bb8bd738b0dbc8b4bc8a8e77ea3acacbd52643e6e29d",
+      "size": 2933584
+    },
+    {
+      "path": "assets/i02.png",
+      "source_path": "public/assets/i02.png",
+      "public_url": "/assets/i02.png",
+      "sha256": "9ad08733887b72fe7e0c31c88c66cbf675b5e8c50fc22aa0cfa7a2197e1ca3dd",
+      "size": 2340877
+    },
+    {
+      "path": "assets/i03.png",
+      "source_path": "public/assets/i03.png",
+      "public_url": "/assets/i03.png",
+      "sha256": "1df48bec21b8ec9123b1648ae53edc256e393582a8447c7f44d3e69350209bfd",
+      "size": 3052217
+    }
+  ]
+}

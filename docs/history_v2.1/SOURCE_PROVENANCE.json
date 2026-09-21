@@ -1,0 +1,16 @@
+{
+  "base_archive": "chengwan_h5_experiment_netlify_fullstack_v2.0.zip",
+  "sha256": "6554b42dad88d706f4e898fed398deac23613f9e51c86dfadf905f9bb278e8b9",
+  "source_material": "R9/Q9/PRETEST-W2",
+  "new_material": "R10/Q10/PRETEST-W3",
+  "requested_changes": [
+    "self PAD前测",
+    "匹配后测",
+    "评论情绪表达前置并增加情绪关键词"
+  ],
+  "not_requested_not_added": [
+    "额外情绪强度量表",
+    "更改帖子正文图片头像",
+    "改变核心品牌量表与三对比"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "revision_id": "R12",
+  "questionnaire_revision_id": "Q12",
+  "wave_id": "PRETEST-W5",
+  "deployment_version": "netlify-fullstack-v2.4",
+  "item_count": 29,
+  "structural_invariant": "same 29 variables/order/pages/required/scoring as R11",
+  "q26": "information_amount retained",
+  "local_api_scoring_tests": {"passed": 32, "failed": 0},
+  "production_netlify_verified": false,
+  "real_mobile_verified": false
+}

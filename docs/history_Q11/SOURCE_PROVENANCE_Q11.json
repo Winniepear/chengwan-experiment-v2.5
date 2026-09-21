@@ -1,0 +1,15 @@
+{
+  "built_utc": "2026-09-08T17:12:22.145116+00:00",
+  "release": "netlify-fullstack-v2.2",
+  "source_archives": [
+    {
+      "name": "chengwan_h5_experiment_netlify_fullstack_v2.1.zip",
+      "sha256": "9d7ca9a8c950826ed6f0642c7cef6284009b0db9a9b84fd843f3cb9de227e613"
+    },
+    {
+      "name": "澄湾实验_29项精简版_R11_Q11_完整资料包.zip",
+      "sha256": "9743759e97787902a1714777e715088507ad9fd53be6a11f073e71a851ab135b"
+    }
+  ],
+  "scope": "Implement approved R11/Q11 29-item specification; preserve all R10 text and PNG bytes; no new participant data or real credentials."
+}

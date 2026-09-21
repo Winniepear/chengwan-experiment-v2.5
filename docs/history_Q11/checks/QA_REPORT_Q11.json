@@ -1,0 +1,188 @@
+{
+  "checked_at_utc": "2026-09-08T17:24:21.272191+00:00",
+  "engineering_version": "2.2.0",
+  "revision_id": "R11",
+  "questionnaire_revision_id": "Q11",
+  "wave_id": "PRETEST-W4",
+  "question_count": 29,
+  "questions_exactly_match_approved": true,
+  "unchanged_city_and_comments": true,
+  "node": "v22.16.0",
+  "local_unit_tests": {
+    "api": 25,
+    "scoring": 7,
+    "total": 32,
+    "passed": 32,
+    "failed": 0,
+    "backend": "same API core, Node SQLite pg-dialect test adapter"
+  },
+  "syntax_checked_files": [
+    "netlify/functions/api.mjs",
+    "netlify/functions/lib/api-core.mjs",
+    "netlify/functions/lib/material-manifest.mjs",
+    "netlify/functions/lib/scoring.mjs",
+    "netlify/functions/lib/study-config.mjs",
+    "public/admin.js",
+    "public/app.js",
+    "scripts/build-manifest.mjs",
+    "scripts/sync-config.mjs",
+    "scripts/validate.mjs",
+    "tests/api.test.mjs",
+    "tests/preview-server.mjs",
+    "tests/scoring.test.mjs",
+    "tests/sqlite-test-adapter.mjs"
+  ],
+  "assets": [
+    {
+      "file": "public/assets/avatar_c1.png",
+      "width": 640,
+      "height": 640,
+      "sha256": "aa28fdfd326d677fca3b0a68326c36d7a689cdd73f72258f740c130c4dc572de",
+      "local_http_status": 200,
+      "identical_to_v2_1": true
+    },
+    {
+      "file": "public/assets/avatar_c2.png",
+      "width": 640,
+      "height": 640,
+      "sha256": "cf12ffe18ac98e0c7ad90bae353a32faf297b9b18a9d7dd51658b6def06e3f67",
+      "local_http_status": 200,
+      "identical_to_v2_1": true
+    },
+    {
+      "file": "public/assets/avatar_c3.png",
+      "width": 640,
+      "height": 640,
+      "sha256": "dab31674a9562ce5ddff8637a3d9bca9fc3e2c9516651d0066dfbd9f554ad87f",
+      "local_http_status": 200,
+      "identical_to_v2_1": true
+    },
+    {
+      "file": "public/assets/avatar_c4.png",
+      "width": 640,
+      "height": 640,
+      "sha256": "71222091b6d217d527ae3c02b7e33ec180daaaa95b978d4ad60bfa8e5d7b2fe1",
+      "local_http_status": 200,
+      "identical_to_v2_1": true
+    },
+    {
+      "file": "public/assets/avatar_c5.png",
+      "width": 640,
+      "height": 640,
+      "sha256": "1d34a38c54069c140270450b1b4ec6dcfbfeaece2884e16dd5b54e9bc6ee55ff",
+      "local_http_status": 200,
+      "identical_to_v2_1": true
+    },
+    {
+      "file": "public/assets/avatar_c6.png",
+      "width": 640,
+      "height": 640,
+      "sha256": "4df35e1b069130796416b4dbb515057ba5d0594ca4429b85a2b371f9ddc558cb",
+      "local_http_status": 200,
+      "identical_to_v2_1": true
+    },
+    {
+      "file": "public/assets/avatar_publisher.png",
+      "width": 512,
+      "height": 512,
+      "sha256": "2d2364858a8041acd8845bcab5be4b1d3f2d82516fb2966caefb6c0567807347",
+      "local_http_status": 200,
+      "identical_to_v2_1": true
+    },
+    {
+      "file": "public/assets/i01.png",
+      "width": 1086,
+      "height": 1448,
+      "sha256": "80acb8bdbe3dc745a872bb8bd738b0dbc8b4bc8a8e77ea3acacbd52643e6e29d",
+      "local_http_status": 200,
+      "identical_to_v2_1": true
+    },
+    {
+      "file": "public/assets/i02.png",
+      "width": 1086,
+      "height": 1448,
+      "sha256": "9ad08733887b72fe7e0c31c88c66cbf675b5e8c50fc22aa0cfa7a2197e1ca3dd",
+      "local_http_status": 200,
+      "identical_to_v2_1": true
+    },
+    {
+      "file": "public/assets/i03.png",
+      "width": 1086,
+      "height": 1448,
+      "sha256": "1df48bec21b8ec9123b1648ae53edc256e393582a8447c7f44d3e69350209bfd",
+      "local_http_status": 200,
+      "identical_to_v2_1": true
+    }
+  ],
+  "migrations": [
+    {
+      "path": "netlify/database/migrations/202607280001_create_experiment_tables.sql",
+      "sha256": "4ebb53d471847c7b738b5d1e34ea70af646a62d9b8daaaf74e236fc9fe699e0e",
+      "identical_to_v2_1": true
+    }
+  ],
+  "material_manifest_files": 28,
+  "offline_browser": {
+    "method": "Original JS/CSS inserted into in-memory Chromium document; same PNG bytes mapped to blob URLs; Python HTTP bridge to local API core; no browser navigation policy changes.",
+    "read_gate_seconds_in_test": 1,
+    "production_gate_seconds": [
+      25,
+      25,
+      45
+    ],
+    "quota_per_condition_in_test": 1,
+    "checks": [
+      {
+        "width": 320,
+        "condition": "G3",
+        "question_count": 29,
+        "submitted": true,
+        "console_errors": []
+      },
+      {
+        "width": 390,
+        "condition": "G2",
+        "question_count": 29,
+        "submitted": true,
+        "console_errors": []
+      },
+      {
+        "width": 768,
+        "condition": "G1",
+        "question_count": 29,
+        "submitted": true,
+        "console_errors": []
+      },
+      {
+        "width": 1366,
+        "condition": "G4",
+        "question_count": 29,
+        "submitted": true,
+        "console_errors": []
+      }
+    ]
+  },
+  "admin_browser": {
+    "admin_ui_loaded": true,
+    "export_button_requested": true,
+    "current_csv_rows": 4,
+    "planning_mean_verified": true,
+    "memory_empty_verified": true,
+    "attention_fail_not_excluded": true,
+    "token_session_only": true
+  },
+  "not_tested": [
+    "npm dependency installation (registry DNS EAI_AGAIN)",
+    "Netlify SDK and esbuild production packaging",
+    "Netlify live deployment",
+    "real PostgreSQL integration and concurrency",
+    "real iPhone/Android/WeChat",
+    "human manipulation/short-scale validation"
+  ],
+  "limitations": [
+    "SQLite adapter records advisory-lock SQL but does not implement PostgreSQL concurrent locking.",
+    "Offline browser uses storage/fetch bridge; not actual HTTPS/network/cache integration.",
+    "Configured wallclock gates are unchanged; fast test gates do not verify real-duration reading.",
+    "Current consent contact and ethics fields are NULL; must be supplied before recruitment."
+  ]
+}

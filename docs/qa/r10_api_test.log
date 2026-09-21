@@ -1,0 +1,112 @@
+
+> chengwan-h5-netlify-fullstack@2.1.0 test
+> node --test tests/*.test.mjs
+
+TAP version 13
+# (node:3013) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: Q10 config has matched pre/post wording and reveals no condition materials
+ok 1 - Q10 config has matched pre/post wording and reveals no condition materials
+  ---
+  duration_ms: 21.720972
+  type: 'test'
+  ...
+# Subtest: baseline and shared post are completed before pre-PAD and no comments are available early
+ok 2 - baseline and shared post are completed before pre-PAD and no comments are available early
+  ---
+  duration_ms: 8.265465
+  type: 'test'
+  ...
+# Subtest: three valid pre values required; bad input does not advance state
+ok 3 - three valid pre values required; bad input does not advance state
+  ---
+  duration_ms: 9.680886
+  type: 'test'
+  ...
+# Subtest: saved pre survives reload and cannot be overwritten after randomization
+ok 4 - saved pre survives reload and cannot be overwritten after randomization
+  ---
+  duration_ms: 7.25111
+  type: 'test'
+  ...
+# Subtest: full flow saves canonical pre/post, aliases, raw delta and scaled delta
+ok 5 - full flow saves canonical pre/post, aliases, raw delta and scaled delta
+  ---
+  duration_ms: 14.320756
+  type: 'test'
+  ...
+# Subtest: legacy aliases cannot conflict with post answers
+ok 6 - legacy aliases cannot conflict with post answers
+  ---
+  duration_ms: 6.315555
+  type: 'test'
+  ...
+# Subtest: partial submissions keep unknown post and change values empty
+ok 7 - partial submissions keep unknown post and change values empty
+  ---
+  duration_ms: 4.032261
+  type: 'test'
+  ...
+# Subtest: historical R9 is never backfilled with fake pre values or Q10 labels
+ok 8 - historical R9 is never backfilled with fake pre values or Q10 labels
+  ---
+  duration_ms: 4.265302
+  type: 'test'
+  ...
+# Subtest: quota-constrained randomization: four groups, no re-draw, no fifth slot
+ok 9 - quota-constrained randomization: four groups, no re-draw, no fifth slot
+  ---
+  duration_ms: 22.056093
+  type: 'test'
+  ...
+# Subtest: open answer supports omission and survives export
+ok 10 - open answer supports omission and survives export
+  ---
+  duration_ms: 9.783221
+  type: 'test'
+  ...
+# Subtest: oversized or structured free text rejected without saving
+ok 11 - oversized or structured free text rejected without saving
+  ---
+  duration_ms: 5.473751
+  type: 'test'
+  ...
+# Subtest: all exports and summary work; unauthorized admin calls blocked
+ok 12 - all exports and summary work; unauthorized admin calls blocked
+  ---
+  duration_ms: 13.388756
+  type: 'test'
+  ...
+# Subtest: CSV formula injection escaped and numerical missing values not filled
+ok 13 - CSV formula injection escaped and numerical missing values not filled
+  ---
+  duration_ms: 10.330909
+  type: 'test'
+  ...
+# Subtest: out of range and skip to completion rejected
+ok 14 - out of range and skip to completion rejected
+  ---
+  duration_ms: 3.169385
+  type: 'test'
+  ...
+# Subtest: formal mode retains paired PAD but skips pretest open/category
+ok 15 - formal mode retains paired PAD but skips pretest open/category
+  ---
+  duration_ms: 7.861904
+  type: 'test'
+  ...
+# Subtest: all 24 frozen text hashes, shared facts and frontloaded emotional clauses
+ok 16 - all 24 frozen text hashes, shared facts and frontloaded emotional clauses
+  ---
+  duration_ms: 0.469701
+  type: 'test'
+  ...
+1..16
+# tests 16
+# suites 0
+# pass 16
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 212.745257

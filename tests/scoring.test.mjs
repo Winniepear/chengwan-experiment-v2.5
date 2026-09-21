@@ -1,0 +1,10 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {derivedScores,scaleValue} from '../netlify/functions/lib/scoring.mjs';
+test('planning all three required, zero/out-of-range not silently used',()=>{for(const v of [null,undefined,'',0,8,4.5,false,{},[]])assert.equal(derivedScores({planning_1:4,planning_2:5,planning_3:v}).planning_mean,null);assert.equal(derivedScores({planning_1:1,planning_2:4,planning_3:7}).planning_mean,4);});
+test('brand allows one missing but not two; visit requires both',()=>{assert.equal(derivedScores({brand_pre1:4,brand_pre2:6}).brand_image_pre,5);assert.equal(derivedScores({brand_pre1:4}).brand_image_pre,null);assert.equal(derivedScores({visit1:6}).visit_intention,null);assert.equal(derivedScores({visit1:6,visit2:2}).visit_intention,4);});
+test('paired PAD endpoints and scaling are exact; never clip delta to [-1,1]',()=>{const a=derivedScores({self_P_pre:7,self_P_post:1,self_A_pre:1,self_A_post:7});assert.equal(a.self_P_delta,-6);assert.equal(a.self_P_delta_std,-2);assert.equal(a.self_A_delta_std,2);assert.equal(a.self_P_pre_std,1);assert.equal(a.self_P_post_std,-1);});
+test('historical alias never synthesizes canonical post or pre',()=>{const a=derivedScores({self_P:5});assert.equal(a.self_P_post_std,null);assert.equal(a.self_P_delta,null);assert.equal(a.self_P_pair_valid,0);assert.equal(a.self_P_std,1/3);});
+test('alias conflicts flagged without modifying answers',()=>{const v={self_P:3,self_P_post:6};assert.equal(derivedScores(v).self_P_alias_conflict,1);assert.equal(v.self_P,3);assert.equal(v.self_P_post,6);});
+test('Q13 missing attention is NULL and unmeasured memory is NULL, not failed',()=>{const a=derivedScores({questionnaire_revision_id:'Q13'});assert.equal(a.attention_pass,null);assert.equal(a.memory_correct,null);assert.equal(a.memory_administered,0);assert.equal(derivedScores({questionnaire_revision_id:'Q13',attention_check:6}).attention_pass,1);});
+test('each eligible scale is 1-7 integer and conversion does not accept arrays/booleans',()=>{for(const v of [false,{},[],0,8,2.5,null,''])assert.equal(scaleValue(v),null);assert.equal(scaleValue('6'),6);});

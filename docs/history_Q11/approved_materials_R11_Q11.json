@@ -1,0 +1,1067 @@
+{
+  "schema": "chengwan-materials-spec/1.0",
+  "edition": "R11-29items",
+  "revision_id": "R11",
+  "questionnaire_revision_id": "Q11",
+  "wave_id": "PRETEST-W4",
+  "status": "资料与编程接入规范候选；未部署",
+  "stimulus_text_source_revision": "R10",
+  "source_deployment": "netlify-fullstack-v2.1",
+  "deployment_updated": false,
+  "item_count": 29,
+  "core_score_item_count": 17,
+  "planning_item_count": 3,
+  "removed_raw_fields": [
+    "comment_feeling_open",
+    "platform_likelihood",
+    "readability",
+    "specificity",
+    "city_context_natural",
+    "memory_check",
+    "new_risk_text",
+    "real_city_guess",
+    "purpose_guess",
+    "education"
+  ],
+  "merged_raw_fields": [
+    "chinese_reading",
+    "social_media_experience"
+  ],
+  "excluded_proposed_fields": [
+    "goal_relax",
+    "goal_explore"
+  ],
+  "mode": "pretest",
+  "quota_per_condition": 40,
+  "timing_candidates": {
+    "base_min_seconds": 25,
+    "post_min_seconds": 25,
+    "comment_min_seconds": 45,
+    "clock": "沿用R10墙钟口径；不是已证实有效阅读时长"
+  },
+  "city": {
+    "name": "澄湾",
+    "intro": "澄湾是一座位于内陆河湾地区的中等规模城市，城市游览资源主要分布在河湾沿岸及中心生活街区。河湾步道、旧工艺展示馆和临水生活街区彼此距离较近，可以串联为一条以滨水景观、地方工艺和日常生活空间为主要内容的城市游览线路。\n\n河湾步道沿线设有多个观景和休息节点，适合步行游览，但整体路线相对较长，不同路段的通行条件和游览密度存在一定差异，游客需要根据时间和体力安排路线。旧工艺展示馆等室内场馆实行分时预约制度，热门时段可能出现名额有限的情况，建议提前查询开放时间和预约要求。\n\n城市公共交通以有轨电车和旅游接驳车为主，能够覆盖主要游览片区。工作日一般通行较为稳定，高峰时段和周末可能出现候车时间增加、部分站点客流集中等情况。中心游览区设有游客服务点，但其分布主要集中在核心景点周边，离开主要游览线路后，相关服务设施相对有限。\n\n整体来看，澄湾的城市景观、地方文化展示和生活街区具有一定的组合性，适合以步行和慢节奏方式游览。",
+    "post_account": "城市漫游记",
+    "post_time": "发布于2小时前",
+    "likes": 432,
+    "favorites": 129,
+    "comment_count": 38,
+    "post_text": "不想人挤人！挖到一座超适合放松的内陆河湾小城——澄湾。\n节奏慢、烟火足、景点集中，非常适合周末短途漫游、城市walk散心✨\n全程可以步行串联游玩，路线不绕路，新手直接抄！\n🌊【精华游玩路线】\n河湾步道 → 旧工艺展示馆 → 临水生活街区\n三个点位挨得很近，一站式打卡水景、老工艺文化、本地生活街区。\n沿河步道风景很舒服，沿途观景、休息点位齐全。\n整条线路偏长，路况和人流量路段差异大，按自己体力走就好，不用硬走完。\n⚠️【必看避坑】\n旧工艺展示馆需要分时预约！\n热门时段名额紧张，一定要提前查开放时间预约，避免跑空。\n🚌【交通出行】\n主要靠有轨电车+旅游接驳车，覆盖全部核心景区。\n工作日通行很稳，周末&早晚高峰容易排队、客流集中，建议错峰游玩。\n💡【贴心提示】\n游客服务点只集中在核心景点附近\n走远后配套设施较少，建议全程围绕主游览线游玩，省心又方便。\n整体是很舒服的慢节奏小城！\n不用赶行程，沿河散步、看展逛街区，治愈又放松🌿",
+    "images": [
+      {
+        "id": "I01",
+        "src": "/assets/i01.png",
+        "alt": "澄湾河湾步道与游客服务指引"
+      },
+      {
+        "id": "I02",
+        "src": "/assets/i02.png",
+        "alt": "澄湾旧工艺展示馆与预约入场区域"
+      },
+      {
+        "id": "I03",
+        "src": "/assets/i03.png",
+        "alt": "澄湾临水生活街区与有轨电车站点"
+      }
+    ],
+    "base_post_title": "澄湾城市介绍",
+    "post_title": "澄湾漫游｜适合慢逛的河湾小城 治愈感拉满！",
+    "post_location": "澄湾",
+    "post_tags": [
+      "澄湾旅行",
+      "小众旅行地",
+      "城市漫游",
+      "周末出游",
+      "治愈系旅行",
+      "城市walk",
+      "旅行攻略",
+      "慢生活旅行"
+    ],
+    "author_signature": "记录城市漫步、展馆体验与公共空间观察",
+    "base_note_label": "城市旅行信息",
+    "comment_section_title": "评论区",
+    "post_avatar": "/assets/avatar_publisher.png",
+    "post_avatar_alt": "城市漫游记虚构账号头像"
+  },
+  "commenters": [
+    {
+      "id": "C1",
+      "name": "岚岚",
+      "role": "步行游客",
+      "function": "路线连通",
+      "fact_ids": [
+        "F03",
+        "F05"
+      ],
+      "avatar": "/assets/avatar_c1.png",
+      "avatar_style": "旅行自拍人像"
+    },
+    {
+      "id": "C2",
+      "name": "momo",
+      "role": "文化游客",
+      "function": "预约信息",
+      "fact_ids": [
+        "F04",
+        "F08"
+      ],
+      "avatar": "/assets/avatar_c2.png",
+      "avatar_style": "展览主题扁平插画"
+    },
+    {
+      "id": "C3",
+      "name": "一点",
+      "role": "公共交通使用者",
+      "function": "交通换乘",
+      "fact_ids": [
+        "F06",
+        "F07"
+      ],
+      "avatar": "/assets/avatar_c3.png",
+      "avatar_style": "宠物插画"
+    },
+    {
+      "id": "C4",
+      "name": "程Transit",
+      "role": "公共空间游客",
+      "function": "空间体验",
+      "fact_ids": [
+        "F03",
+        "F05"
+      ],
+      "avatar": "/assets/avatar_c4.png",
+      "avatar_style": "街拍感人像"
+    },
+    {
+      "id": "C5",
+      "name": "Mia行程控",
+      "role": "行程规划者",
+      "function": "时间规划",
+      "fact_ids": [
+        "F07",
+        "F08"
+      ],
+      "avatar": "/assets/avatar_c5.png",
+      "avatar_style": "相机与路线物件插画"
+    },
+    {
+      "id": "C6",
+      "name": "聪明盖世第一",
+      "role": "综合体验者",
+      "function": "总体整合",
+      "fact_ids": [
+        "F03",
+        "F04",
+        "F05",
+        "F06",
+        "F07",
+        "F08"
+      ],
+      "avatar": "/assets/avatar_c6.png",
+      "avatar_style": "城市风景头像"
+    }
+  ],
+  "materials": {
+    "G1": {
+      "label": "中性基准",
+      "material_id": "CW_G1_R11_XHS",
+      "comments": [
+        "河湾步道连接临水生活街区，可以一路步行过去。我这次就是沿这条线走的，把步道和街区放在同一段行程里看。📍",
+        "旧工艺展示馆要分时预约，按预约时段进馆。我这次是先确认时段，再到馆参观。行程里写的也是预约和入馆这两步。",
+        "主要片区有电车和接驳车，接驳按时刻表运行。我这次在主要片区之间换乘了这两种车，接驳时间就对着时刻表来看。",
+        "步道沿线有观景和休息点，整条路线比较长。这次我把走过的路段和停留点记了下来，记录里有步行，也有中途休息。",
+        "服务点主要在中心游览区，离开主线后就少了。我沿主线游览时看到了服务点，记位置时把中心区和主线以外分开了。",
+        "这条线包括步道、展馆和街区，要安排步行、预约和换乘。我的游览记录就包括这些内容，按步道、展馆、街区的顺序整理。📝"
+      ],
+      "source_material_id": "CW_G1_R10_XHS"
+    },
+    "G2": {
+      "label": "松弛型正向",
+      "material_id": "CW_G2_R11_XHS",
+      "comments": [
+        "一路逛得很开心，心里松松的。河湾步道连接临水生活街区，可以一路步行过去。我按自己的节奏慢慢走，想停就停，很放松。📍",
+        "排好时间后我很放松，心里踏实又舒心。旧工艺展示馆要分时预约，按预约时段进馆。怎么逛我自己有数，从容不赶。",
+        "这次逛得舒服又开心，不慌也不赶。主要片区有电车和接驳车，接驳按时刻表运行。看好时刻后怎么衔接由我定，心里很安稳。",
+        "慢慢走着真舒服，心情也舒展开了。步道沿线有观景和休息点，整条路线比较长。走哪段、在哪里停由自己决定，我很放松。",
+        "心里有数后，我就踏实了，逛得很舒心。服务点主要在中心游览区，离开主线后就少了。我记好位置，路线自己定，心情很放松。",
+        "这样逛我很开心，也很放松。这条线包括步道、展馆和街区，要安排步行、预约和换乘。我先排好再按自己的步调走，心里踏实，从容不赶。📝"
+      ],
+      "source_material_id": "CW_G2_R10_XHS"
+    },
+    "G3": {
+      "label": "兴奋型正向",
+      "material_id": "CW_G3_R11_XHS",
+      "comments": [
+        "一路逛得很开心，越走越兴奋。河湾步道连接临水生活街区，可以一路步行过去。我很来劲，想接着逛，走停的节奏也由我定。📍",
+        "排好时间后我很兴奋，开心得跃跃欲试。旧工艺展示馆要分时预约，按预约时段进馆。怎么逛我自己有数，特别来劲。",
+        "这次逛得开心又兴奋，越逛越来劲。主要片区有电车和接驳车，接驳按时刻表运行。看好时刻后怎么衔接由我定，劲头很足。",
+        "越往前逛越来劲，心情一下高涨起来。步道沿线有观景和休息点，整条路线比较长。走哪段、在哪里停由自己决定，我很兴奋。",
+        "一路玩得很开心，接着逛的劲头很足。服务点主要在中心游览区，离开主线后就少了。我记好位置，路线自己定，越逛越兴奋。",
+        "这样逛我很开心，也很兴奋。这条线包括步道、展馆和街区，要安排步行、预约和换乘。我先排好再按自己的步调走，越逛越来劲，很有劲头。📝"
+      ],
+      "source_material_id": "CW_G3_R10_XHS"
+    },
+    "G4": {
+      "label": "焦虑风险型",
+      "material_id": "CW_G4_R11_XHS",
+      "comments": [
+        "一路逛得不舒心，越想越紧张。河湾步道连接临水生活街区，可以一路步行过去。我总怕下一段走岔，心里绷着，感觉节奏不由我。📍",
+        "去馆前我很焦虑，心里一直绷着。旧工艺展示馆要分时预约，按预约时段进馆。我怕赶不上，逛得不开心，感觉被时间牵着走。",
+        "这次逛得不开心，心里一直发紧。主要片区有电车和接驳车，接驳按时刻表运行。我总怕错过班次，越想越慌，觉得节奏难掌握。",
+        "越往前逛越紧张，心里一直绷着。步道沿线有观景和休息点，整条路线比较长。我总担心下一段怎么安排，逛得不开心，也拿不准节奏。",
+        "这次我很焦虑，心里不踏实。服务点主要在中心游览区，离开主线后就少了。我怕临时问路找不到地方，逛得不舒心，也难拿主意。",
+        "这样逛我很焦虑，也不开心。这条线包括步道、展馆和街区，要安排步行、预约和换乘。我总怕几件事衔接不上，心里绷着，感觉行程不由自己。📝"
+      ],
+      "source_material_id": "CW_G4_R10_XHS"
+    }
+  },
+  "targets_research_only": [
+    {
+      "condition": "G1",
+      "label": "中性基准",
+      "P": "中",
+      "A": "中",
+      "D": "中",
+      "description": "主要记录路线和安排，没有明显开心、不开心、兴奋或焦虑，也不突出很能掌控或完全掌控不了。"
+    },
+    {
+      "condition": "G2",
+      "label": "松弛型正向",
+      "P": "高",
+      "A": "低",
+      "D": "高",
+      "description": "逛得开心、舒服、放松；不赶、不慌，觉得自己能决定节奏。"
+    },
+    {
+      "condition": "G3",
+      "label": "兴奋型正向",
+      "P": "高",
+      "A": "高",
+      "D": "高",
+      "description": "逛得开心、兴奋、来劲，期待继续游览；情绪高涨，但仍觉得自己能掌握安排。"
+    },
+    {
+      "condition": "G4",
+      "label": "焦虑风险型",
+      "P": "低",
+      "A": "高",
+      "D": "低",
+      "description": "逛得不舒心，心里绷着、担心赶不上或安排被打乱，觉得节奏不太由自己掌握；不声称客观风险已发生。"
+    }
+  ],
+  "instructions": {
+    "consent": {
+      "text": "本研究关注人们如何阅读在线旅游信息，预计需要8—10分钟。研究材料可能经过设计和编辑。\n参与完全自愿。您可随时退出；问卷不收集姓名、手机号、精确地址或社交平台账号。研究数据将以匿名编号保存。",
+      "duration_status": "用时沿用R10提示；29项实际完成时间需技术试运行后更新。",
+      "researcher_contact": null,
+      "contact_email": null,
+      "ethics_approval": null,
+      "release_note": "联系人、联系方式和伦理信息未提供，须经研究负责人填写核对后发布；本包不编造批准信息。"
+    },
+    "planning": "请按你平时外出旅游的习惯作答，不用考虑接下来介绍的城市。",
+    "brand_pre": "根据刚才的城市介绍和帖子，选择你目前的看法。",
+    "self": "这里问你自己的感受，不是作者或评论者的感受。",
+    "outcomes": "结合刚才读到的信息，选择你现在的看法。",
+    "perceived": "现在只判断六条评论里的人，不回答你自己的感受，也不评价城市好不好。",
+    "debrief": "本研究中的澄湾、账号、图片和评论均为研究材料，不对应任何现实城市，也不包含真实风险事件。研究目的是了解人们阅读在线旅游信息后的感受与判断。感谢您的参与。"
+  },
+  "pages": [
+    {
+      "page": "consent",
+      "title": "研究说明与知情同意",
+      "items": [
+        1,
+        2,
+        3
+      ],
+      "purpose": "保留知情同意说明；确认年龄及合并资格。",
+      "gate": "consent=1，age≥18，eligibility_basic=1。"
+    },
+    {
+      "page": "planning",
+      "title": "平时的旅行习惯",
+      "items": [
+        4,
+        5,
+        6
+      ],
+      "purpose": "任何城市文字、图片、帖子之前；三题1—7。",
+      "gate": "三题均有有效整数值；与筛选可同一入口分区，但先同意再回答。"
+    },
+    {
+      "page": "base_intro",
+      "title": "澄湾城市介绍",
+      "items": [],
+      "purpose": "仅标题和简介；没有图片、标签、作者、互动数字。",
+      "gate": "沿用25秒候选门槛＋滚动。"
+    },
+    {
+      "page": "post_intro",
+      "title": "统一帖子与图片",
+      "items": [],
+      "purpose": "原帖、三图、发布者、标签、互动数字；不显示评论。",
+      "gate": "沿用25秒候选门槛＋滚动。"
+    },
+    {
+      "page": "baseline",
+      "title": "你对澄湾的印象／此刻，你自己的感受",
+      "items": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "purpose": "同页分区：品牌3题在上，自身3题在下；不预选。",
+      "gate": "品牌≥2/3有效、自身3/3有效；保存完成后才随机化。"
+    },
+    {
+      "page": "comments",
+      "title": "部分评论",
+      "items": [],
+      "purpose": "服务器在未满额组等概率随机；只返回一组六条；原帖标题引用。",
+      "gate": "沿用45秒候选门槛＋滚动；不按规划得分或结果分配。"
+    },
+    {
+      "page": "self_pad_post",
+      "title": "此刻，你自己的感受",
+      "items": [
+        13,
+        14,
+        15
+      ],
+      "purpose": "与前测相同文字和端点；不显示前次答案。",
+      "gate": "三题有效。"
+    },
+    {
+      "page": "outcomes",
+      "title": "现在，你对澄湾的看法",
+      "items": [
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "purpose": "品牌后测及访问意向同页；不提示变化方向。",
+      "gate": "品牌≥2/3有效、访问意向2/2有效。"
+    },
+    {
+      "page": "perceived",
+      "title": "评论里的人是什么感受？",
+      "items": [
+        21,
+        22,
+        23
+      ],
+      "purpose": "只判断评论者；在主要结果之后。",
+      "gate": "三题有效；不是判断正确与否。"
+    },
+    {
+      "page": "final_checks",
+      "title": "最后的检查",
+      "items": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ],
+      "purpose": "类别、自然性、信息量、风险、注意题、性别；无开放打字题。",
+      "gate": "保存后展示结束说明和提交按钮。"
+    },
+    {
+      "page": "complete",
+      "title": "感谢参与",
+      "items": [],
+      "purpose": "显示去欺瞒说明；完成提交记录不计为第30题。",
+      "gate": "完成状态与主要结果有效状态分开记录。"
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "variable": "consent",
+      "stage": "同意与筛选",
+      "title": "您是否同意参加本研究？",
+      "type": "single",
+      "left": "",
+      "right": "",
+      "options": [
+        {
+          "value": 1,
+          "label": "同意参加"
+        },
+        {
+          "value": 0,
+          "label": "不同意参加"
+        }
+      ],
+      "required": "是",
+      "role": "资格",
+      "help": "",
+      "source": "对话确认的26项精简稿",
+      "rule": "0立即结束；不展示其余材料",
+      "note": "",
+      "range": "1=同意参加；0=不同意参加",
+      "missing": "NULL/空白；不填0或4",
+      "reverse": false
+    },
+    {
+      "number": 2,
+      "variable": "age",
+      "stage": "同意与筛选",
+      "title": "您的年龄：",
+      "type": "integer",
+      "left": "",
+      "right": "",
+      "options": [],
+      "required": "是",
+      "role": "资格／样本描述",
+      "help": "",
+      "source": "对话确认的26项精简稿",
+      "rule": "整数0—120；仅18岁及以上进入材料",
+      "note": "唯一数字输入框；填写周岁。",
+      "range": "整数0—120",
+      "missing": "NULL/空白；不填0或4",
+      "reverse": false
+    },
+    {
+      "number": 3,
+      "variable": "eligibility_basic",
+      "stage": "同意与筛选",
+      "title": "请确认：您能阅读简体中文，并且有浏览社交媒体内容的经验。",
+      "type": "single",
+      "left": "",
+      "right": "",
+      "options": [
+        {
+          "value": 1,
+          "label": "符合以上两项"
+        },
+        {
+          "value": 0,
+          "label": "不符合"
+        }
+      ],
+      "required": "是",
+      "role": "资格",
+      "help": "",
+      "source": "对话确认的26项精简稿",
+      "rule": "1才可继续；0结束",
+      "note": "合并两项资格确认；0不能推断是哪项不符合；不伪造旧两字段。",
+      "range": "1=符合以上两项；0=不符合",
+      "missing": "NULL/空白；不填0或4",
+      "reverse": false
+    },
+    {
+      "number": 4,
+      "variable": "planning_1",
+      "stage": "旅行规划倾向",
+      "title": "出行前，我通常会提前确定主要想去的地点。",
+      "type": "scale",
+      "left": "非常不符合",
+      "right": "非常符合",
+      "options": [],
+      "required": "是",
+      "role": "处理前调节变量",
+      "help": "",
+      "source": "对话确认的29项方案：3题规划倾向候选",
+      "rule": "三题均有效才计算planning_mean",
+      "note": "在任何澄湾材料前测量；非已验证标准短量表；低分不等同随性人格。",
+      "range": "整数1—7",
+      "missing": "NULL/空白；不填0或4",
+      "reverse": false
+    },
+    {
+      "number": 5,
+      "variable": "planning_2",
+      "stage": "旅行规划倾向",
+      "title": "我习惯提前安排每天主要活动的大致时间。",
+      "type": "scale",
+      "left": "非常不符合",
+      "right": "非常符合",
+      "options": [],
+      "required": "是",
+      "role": "处理前调节变量",
+      "help": "",
+      "source": "对话确认的29项方案：3题规划倾向候选",
+      "rule": "三题均有效才计算planning_mean",
+      "note": "在任何澄湾材料前测量；非已验证标准短量表；低分不等同随性人格。",
+      "range": "整数1—7",
+      "missing": "NULL/空白；不填0或4",
+      "reverse": false
+    },
+    {
+      "number": 6,
+      "variable": "planning_3",
+      "stage": "旅行规划倾向",
+      "title": "我通常会提前想好不同游览地点之间的衔接顺序。",
+      "type": "scale",
+      "left": "非常不符合",
+      "right": "非常符合",
+      "options": [],
+      "required": "是",
+      "role": "处理前调节变量",
+      "help": "",
+      "source": "对话确认的29项方案：3题规划倾向候选",
+      "rule": "三题均有效才计算planning_mean",
+      "note": "在任何澄湾材料前测量；非已验证标准短量表；低分不等同随性人格。",
+      "range": "整数1—7",
+      "missing": "NULL/空白；不填0或4",
+      "reverse": false
+    },
+    {
+      "number": 7,
+      "variable": "brand_pre1",
+      "stage": "品牌形象前测",
+      "title": "我认为澄湾总体上",
+      "type": "scale",
+      "left": "总体很差",
+      "right": "总体很好",
+      "options": [],
+      "required": "本组三题至少答两题",
+      "role": "主要结果的基线",
+      "help": "",
+      "source": "对话确认的26项精简稿",
+      "rule": "至少2/3项有效后取均值",
+      "note": "从R10的简介后移至共同帖子后；与自身前测同页分区。",
+      "range": "整数1—7",
+      "missing": "NULL/空白；不填0或4",
+      "reverse": false
+    },
+    {
+      "number": 8,
+      "variable": "brand_pre2",
+      "stage": "品牌形象前测",
+      "title": "我认为澄湾",
+      "type": "scale",
+      "left": "很不吸引人",
+      "right": "很吸引人",
+      "options": [],
+      "required": "本组三题至少答两题",
+      "role": "主要结果的基线",
+      "help": "",
+      "source": "对话确认的26项精简稿",
+      "rule": "至少2/3项有效后取均值",
+      "note": "从R10的简介后移至共同帖子后；与自身前测同页分区。",
+      "range": "整数1—7",
+      "missing": "NULL/空白；不填0或4",
+      "reverse": false
+    },
+    {
+      "number": 9,
+      "variable": "brand_pre3",
+      "stage": "品牌形象前测",
+      "title": "我对澄湾的喜爱程度",
+      "type": "scale",
+      "left": "很不喜欢",
+      "right": "很喜欢",
+      "options": [],
+      "required": "本组三题至少答两题",
+      "role": "主要结果的基线",
+      "help": "",
+      "source": "对话确认的26项精简稿",
+      "rule": "至少2/3项有效后取均值",
+      "note": "从R10的简介后移至共同帖子后；与自身前测同页分区。",
+      "range": "整数1—7",
+      "missing": "NULL/空白；不填0或4",
+      "reverse": false
+    },
+    {
+      "number": 10,
+      "variable": "self_P_pre",
+      "stage": "自身感受前测",
+      "title": "此刻，我的心情是",
+      "type": "scale",
+      "left": "很不开心",
+      "right": "很开心",
+      "options": [],
+      "required": "是",
+      "role": "自身状态基线",
+      "help": "",
+      "source": "对话确认的26项精简稿",
+      "rule": "前后配对分别计分，不合成PAD总分",
+      "note": "前后题干、端点、说明完全相同。",
+      "range": "整数1—7",
+      "missing": "NULL/空白；不填0或4",
+      "reverse": false
+    },
+    {
+      "number": 11,
+      "variable": "self_A_pre",
+      "stage": "自身感受前测",
+      "title": "此刻，我的情绪状态是",
+      "type": "scale",
+      "left": "很平静",
+      "right": "很激动",
+      "options": [],
+      "required": "是",
+      "role": "自身状态基线",
+      "help": "“激动”也包括因为担心而紧张的状态。",
+      "source": "对话确认的26项精简稿",
+      "rule": "前后配对分别计分，不合成PAD总分",
+      "note": "前后题干、端点、说明完全相同。",
+      "range": "整数1—7",
+      "missing": "NULL/空白；不填0或4",
+      "reverse": false
+    },
+    {
+      "number": 12,
+      "variable": "self_D_pre",
+      "stage": "自身感受前测",
+      "title": "想到自己去澄湾游览，此刻我感到",
+      "type": "scale",
+      "left": "行程超出我的掌控",
+      "right": "行程在我的掌控之中",
+      "options": [],
+      "required": "是",
+      "role": "自身状态基线",
+      "help": "",
+      "source": "对话确认的26项精简稿",
+      "rule": "前后配对分别计分，不合成PAD总分",
+      "note": "D为预期行程掌控感。",
+      "range": "整数1—7",
+      "missing": "NULL/空白；不填0或4",
+      "reverse": false
+    },
+    {
+      "number": 13,
+      "variable": "self_P_post",
+      "stage": "自身感受后测",
+      "title": "此刻，我的心情是",
+      "type": "scale",
+      "left": "很不开心",
+      "right": "很开心",
+      "options": [],
+      "required": "是",
+      "role": "次级过程结果",
+      "help": "",
+      "source": "对话确认的26项精简稿",
+      "rule": "前后配对分别计分，不合成PAD总分",
+      "note": "前后题干、端点、说明完全相同。",
+      "range": "整数1—7",
+      "missing": "NULL/空白；不填0或4",
+      "reverse": false
+    },
+    {
+      "number": 14,
+      "variable": "self_A_post",
+      "stage": "自身感受后测",
+      "title": "此刻，我的情绪状态是",
+      "type": "scale",
+      "left": "很平静",
+      "right": "很激动",
+      "options": [],
+      "required": "是",
+      "role": "次级过程结果",
+      "help": "“激动”也包括因为担心而紧张的状态。",
+      "source": "对话确认的26项精简稿",
+      "rule": "前后配对分别计分，不合成PAD总分",
+      "note": "前后题干、端点、说明完全相同。",
+      "range": "整数1—7",
+      "missing": "NULL/空白；不填0或4",
+      "reverse": false
+    },
+    {
+      "number": 15,
+      "variable": "self_D_post",
+      "stage": "自身感受后测",
+      "title": "想到自己去澄湾游览，此刻我感到",
+      "type": "scale",
+      "left": "行程超出我的掌控",
+      "right": "行程在我的掌控之中",
+      "options": [],
+      "required": "是",
+      "role": "次级过程结果",
+      "help": "",
+      "source": "对话确认的26项精简稿",
+      "rule": "前后配对分别计分，不合成PAD总分",
+      "note": "D为预期行程掌控感。",
+      "range": "整数1—7",
+      "missing": "NULL/空白；不填0或4",
+      "reverse": false
+    },
+    {
+      "number": 16,
+      "variable": "brand_post1",
+      "stage": "品牌后测与访问意向",
+      "title": "我认为澄湾总体上",
+      "type": "scale",
+      "left": "总体很差",
+      "right": "总体很好",
+      "options": [],
+      "required": "本组三题至少答两题",
+      "role": "主要结果",
+      "help": "",
+      "source": "对话确认的26项精简稿",
+      "rule": "至少2/3项有效后取均值",
+      "note": "",
+      "range": "整数1—7",
+      "missing": "NULL/空白；不填0或4",
+      "reverse": false
+    },
+    {
+      "number": 17,
+      "variable": "brand_post2",
+      "stage": "品牌后测与访问意向",
+      "title": "我认为澄湾",
+      "type": "scale",
+      "left": "很不吸引人",
+      "right": "很吸引人",
+      "options": [],
+      "required": "本组三题至少答两题",
+      "role": "主要结果",
+      "help": "",
+      "source": "对话确认的26项精简稿",
+      "rule": "至少2/3项有效后取均值",
+      "note": "",
+      "range": "整数1—7",
+      "missing": "NULL/空白；不填0或4",
+      "reverse": false
+    },
+    {
+      "number": 18,
+      "variable": "brand_post3",
+      "stage": "品牌后测与访问意向",
+      "title": "我对澄湾的喜爱程度",
+      "type": "scale",
+      "left": "很不喜欢",
+      "right": "很喜欢",
+      "options": [],
+      "required": "本组三题至少答两题",
+      "role": "主要结果",
+      "help": "",
+      "source": "对话确认的26项精简稿",
+      "rule": "至少2/3项有效后取均值",
+      "note": "",
+      "range": "整数1—7",
+      "missing": "NULL/空白；不填0或4",
+      "reverse": false
+    },
+    {
+      "number": 19,
+      "variable": "visit1",
+      "stage": "品牌后测与访问意向",
+      "title": "如果未来有合适机会，我愿意到澄湾旅游。",
+      "type": "scale",
+      "left": "非常不同意",
+      "right": "非常同意",
+      "options": [],
+      "required": "是",
+      "role": "关键次要结果",
+      "help": "",
+      "source": "对话确认的26项精简稿",
+      "rule": "两项均有效后取均值",
+      "note": "",
+      "range": "整数1—7",
+      "missing": "NULL/空白；不填0或4",
+      "reverse": false
+    },
+    {
+      "number": 20,
+      "variable": "visit2",
+      "stage": "品牌后测与访问意向",
+      "title": "我会把澄湾列入未来旅游目的地的考虑范围。",
+      "type": "scale",
+      "left": "非常不同意",
+      "right": "非常同意",
+      "options": [],
+      "required": "是",
+      "role": "关键次要结果",
+      "help": "",
+      "source": "对话确认的26项精简稿",
+      "rule": "两项均有效后取均值",
+      "note": "",
+      "range": "整数1—7",
+      "missing": "NULL/空白；不填0或4",
+      "reverse": false
+    },
+    {
+      "number": 21,
+      "variable": "perceived_comment_P",
+      "stage": "评论情绪识别",
+      "title": "评论里的人整体心情更接近：",
+      "type": "scale",
+      "left": "很不开心",
+      "right": "很开心",
+      "options": [],
+      "required": "是",
+      "role": "操纵检查",
+      "help": "",
+      "source": "对话确认的26项精简稿",
+      "rule": "单项独立；不按是否符合目标排除受试者",
+      "note": "评价评论者，不能与self同维度相减。",
+      "range": "整数1—7",
+      "missing": "NULL/空白；不填0或4",
+      "reverse": false
+    },
+    {
+      "number": 22,
+      "variable": "perceived_comment_A",
+      "stage": "评论情绪识别",
+      "title": "评论里的人整体情绪状态更接近：",
+      "type": "scale",
+      "left": "很平静",
+      "right": "很激动",
+      "options": [],
+      "required": "是",
+      "role": "操纵检查",
+      "help": "“激动”也包括因为担心而紧张的状态。",
+      "source": "对话确认的26项精简稿",
+      "rule": "单项独立；不按是否符合目标排除受试者",
+      "note": "评价评论者，不能与self同维度相减。",
+      "range": "整数1—7",
+      "missing": "NULL/空白；不填0或4",
+      "reverse": false
+    },
+    {
+      "number": 23,
+      "variable": "perceived_comment_D",
+      "stage": "评论情绪识别",
+      "title": "评论里的人觉得，游览的安排和节奏：",
+      "type": "scale",
+      "left": "完全掌握不了",
+      "right": "完全能自己掌握",
+      "options": [],
+      "required": "是",
+      "role": "操纵检查",
+      "help": "",
+      "source": "对话确认的26项精简稿",
+      "rule": "单项独立；不按是否符合目标排除受试者",
+      "note": "评价评论者，不能与self同维度相减。",
+      "range": "整数1—7",
+      "missing": "NULL/空白；不填0或4",
+      "reverse": false
+    },
+    {
+      "number": 24,
+      "variable": "emotion_label",
+      "stage": "最后检查与提交",
+      "title": "这些评论整体更接近哪种感觉？",
+      "type": "single_text",
+      "left": "",
+      "right": "",
+      "options": [
+        {
+          "value": "主要在记录和说明，没有明显情绪",
+          "label": "主要在记录和说明，没有明显情绪"
+        },
+        {
+          "value": "轻松、舒服、开心",
+          "label": "轻松、舒服、开心"
+        },
+        {
+          "value": "兴奋、来劲、开心",
+          "label": "兴奋、来劲、开心"
+        },
+        {
+          "value": "紧张、担心、不安",
+          "label": "紧张、担心、不安"
+        },
+        {
+          "value": "其他或说不清楚",
+          "label": "其他或说不清楚"
+        }
+      ],
+      "required": "是",
+      "role": "预测试辅助识别",
+      "help": "",
+      "source": "对话确认的26项精简稿",
+      "rule": "保存选项完整原文；1—5仅为显示顺序",
+      "note": "目标识别只描述，不删除不符合目标的人。",
+      "range": "主要在记录和说明，没有明显情绪；轻松、舒服、开心；兴奋、来劲、开心；紧张、担心、不安；其他或说不清楚",
+      "missing": "NULL/空白；不填0或4",
+      "reverse": false
+    },
+    {
+      "number": 25,
+      "variable": "naturalness",
+      "stage": "最后检查与提交",
+      "title": "这些评论读起来自然。",
+      "type": "scale",
+      "left": "非常不同意",
+      "right": "非常同意",
+      "options": [],
+      "required": "是",
+      "role": "材料诊断",
+      "help": "",
+      "source": "对话确认的26项精简稿",
+      "rule": "单项；不合成为新量表",
+      "note": "",
+      "range": "整数1—7",
+      "missing": "NULL/空白；不填0或4",
+      "reverse": false
+    },
+    {
+      "number": 26,
+      "variable": "information_amount",
+      "stage": "最后检查与提交",
+      "title": "这些评论提供的游览信息比较充足。",
+      "type": "scale",
+      "left": "非常不同意",
+      "right": "非常同意",
+      "options": [],
+      "required": "是",
+      "role": "材料诊断",
+      "help": "",
+      "source": "对话确认的26项精简稿",
+      "rule": "单项；不合成为新量表",
+      "note": "",
+      "range": "整数1—7",
+      "missing": "NULL/空白；不填0或4",
+      "reverse": false
+    },
+    {
+      "number": 27,
+      "variable": "new_risk_inferred",
+      "stage": "最后检查与提交",
+      "title": "材料是否明确说，澄湾已经发生过事故、犯罪、灾害，或者交通、场馆服务故障？",
+      "type": "single",
+      "left": "",
+      "right": "",
+      "options": [
+        {
+          "value": 0,
+          "label": "没有"
+        },
+        {
+          "value": 1,
+          "label": "有"
+        }
+      ],
+      "required": "是",
+      "role": "风险事实诊断",
+      "help": "",
+      "source": "对话确认的26项精简稿",
+      "rule": "只保存有/没有；不显示解释框",
+      "note": "不将对可能风险的担心当作已发生事件。",
+      "range": "0=没有；1=有",
+      "missing": "NULL/空白；不填0或4",
+      "reverse": false
+    },
+    {
+      "number": 28,
+      "variable": "attention_check",
+      "stage": "最后检查与提交",
+      "title": "这题用于确认你在阅读题目，请选择数字“6”。",
+      "type": "scale",
+      "left": "",
+      "right": "",
+      "options": [],
+      "required": "是",
+      "role": "质量诊断",
+      "help": "",
+      "source": "对话确认的26项精简稿",
+      "rule": "6通过；1—5或7失败；未答为NULL",
+      "note": "只显示数字1—7，不显示同意度端点；不实时自动排除。",
+      "range": "整数1—7；正确选项6",
+      "missing": "NULL/空白；不填0或4",
+      "reverse": false
+    },
+    {
+      "number": 29,
+      "variable": "gender",
+      "stage": "最后检查与提交",
+      "title": "您的性别：",
+      "type": "single_text",
+      "left": "",
+      "right": "",
+      "options": [
+        {
+          "value": "女",
+          "label": "女"
+        },
+        {
+          "value": "男",
+          "label": "男"
+        },
+        {
+          "value": "其他",
+          "label": "其他"
+        },
+        {
+          "value": "不愿回答",
+          "label": "不愿回答"
+        }
+      ],
+      "required": "是",
+      "role": "样本描述",
+      "help": "",
+      "source": "对话确认的26项精简稿",
+      "rule": "保存选项原文；不愿回答是有效类别",
+      "note": "",
+      "range": "女；男；其他；不愿回答",
+      "missing": "NULL/空白；不填0或4",
+      "reverse": false
+    }
+  ],
+  "assets": [
+    {
+      "file": "assets/avatar_c1.png",
+      "source_path": "chengwan_h5_experiment_netlify_fullstack_v2.1/public/assets/avatar_c1.png",
+      "sha256": "aa28fdfd326d677fca3b0a68326c36d7a689cdd73f72258f740c130c4dc572de",
+      "bytes": 411655
+    },
+    {
+      "file": "assets/avatar_c2.png",
+      "source_path": "chengwan_h5_experiment_netlify_fullstack_v2.1/public/assets/avatar_c2.png",
+      "sha256": "cf12ffe18ac98e0c7ad90bae353a32faf297b9b18a9d7dd51658b6def06e3f67",
+      "bytes": 7487
+    },
+    {
+      "file": "assets/avatar_c3.png",
+      "source_path": "chengwan_h5_experiment_netlify_fullstack_v2.1/public/assets/avatar_c3.png",
+      "sha256": "dab31674a9562ce5ddff8637a3d9bca9fc3e2c9516651d0066dfbd9f554ad87f",
+      "bytes": 8110
+    },
+    {
+      "file": "assets/avatar_c4.png",
+      "source_path": "chengwan_h5_experiment_netlify_fullstack_v2.1/public/assets/avatar_c4.png",
+      "sha256": "71222091b6d217d527ae3c02b7e33ec180daaaa95b978d4ad60bfa8e5d7b2fe1",
+      "bytes": 368275
+    },
+    {
+      "file": "assets/avatar_c5.png",
+      "source_path": "chengwan_h5_experiment_netlify_fullstack_v2.1/public/assets/avatar_c5.png",
+      "sha256": "1d34a38c54069c140270450b1b4ec6dcfbfeaece2884e16dd5b54e9bc6ee55ff",
+      "bytes": 8691
+    },
+    {
+      "file": "assets/avatar_c6.png",
+      "source_path": "chengwan_h5_experiment_netlify_fullstack_v2.1/public/assets/avatar_c6.png",
+      "sha256": "4df35e1b069130796416b4dbb515057ba5d0594ca4429b85a2b371f9ddc558cb",
+      "bytes": 602919
+    },
+    {
+      "file": "assets/avatar_publisher.png",
+      "source_path": "chengwan_h5_experiment_netlify_fullstack_v2.1/public/assets/avatar_publisher.png",
+      "sha256": "2d2364858a8041acd8845bcab5be4b1d3f2d82516fb2966caefb6c0567807347",
+      "bytes": 181944
+    },
+    {
+      "file": "assets/i01.png",
+      "source_path": "chengwan_h5_experiment_netlify_fullstack_v2.1/public/assets/i01.png",
+      "sha256": "80acb8bdbe3dc745a872bb8bd738b0dbc8b4bc8a8e77ea3acacbd52643e6e29d",
+      "bytes": 2933584
+    },
+    {
+      "file": "assets/i02.png",
+      "source_path": "chengwan_h5_experiment_netlify_fullstack_v2.1/public/assets/i02.png",
+      "sha256": "9ad08733887b72fe7e0c31c88c66cbf675b5e8c50fc22aa0cfa7a2197e1ca3dd",
+      "bytes": 2340877
+    },
+    {
+      "file": "assets/i03.png",
+      "source_path": "chengwan_h5_experiment_netlify_fullstack_v2.1/public/assets/i03.png",
+      "sha256": "1df48bec21b8ec9123b1648ae53edc256e393582a8447c7f44d3e69350209bfd",
+      "bytes": 3052217
+    }
+  ],
+  "release_ready": false,
+  "base_material_id": "CW_BASE_R11_TEXT_ONLY",
+  "post_material_id": "CW_POST_R11_XHS"
+}

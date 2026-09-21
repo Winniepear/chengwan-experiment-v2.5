@@ -1,0 +1,19 @@
+
+> chengwan-h5-netlify-fullstack@2.1.0 build
+> npm run sync:config && npm run validate && npm run build:manifest
+
+
+> chengwan-h5-netlify-fullstack@2.1.0 sync:config
+> node scripts/sync-config.mjs
+
+config synced: PRETEST-W3/R10
+
+> chengwan-h5-netlify-fullstack@2.1.0 validate
+> node scripts/validate.mjs
+
+R10 validation passed: paired wording, six facts, 24 texts, local assets, versions, no extra emotion scales.
+
+> chengwan-h5-netlify-fullstack@2.1.0 build:manifest
+> node scripts/build-manifest.mjs
+
+material manifest: 26 files

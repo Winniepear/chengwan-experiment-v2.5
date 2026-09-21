@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>实验数据后台</title>
+  <link rel="stylesheet" href="/styles.css?v=2.2.0">
+</head>
+<body>
+  <main class="app-shell">
+    <section class="card">
+      <h1>实验数据后台</h1>
+      <p class="muted">输入部署时设置的 ADMIN_TOKEN。令牌只保存在当前标签页会话中；关闭后需重新输入。</p>
+      <div class="field"><label for="token">管理员令牌</label><input id="token" type="password" autocomplete="current-password"></div>
+      <div class="actions"><button id="loadBtn" class="btn btn-primary">加载统计</button></div>
+      <p><button id="logoutBtn" class="btn btn-secondary" type="button">清除本页令牌</button></p><div id="adminError" class="error-box"></div>
+    </section>
+    <section id="dashboard" class="card hidden">
+      <h2>当前波次</h2>
+      <p id="waveInfo"></p>
+      <div id="totals" class="status-grid"></div>
+      <h3>分组情况</h3>
+      <div id="conditions"></div>
+      <h3>当前页面状态</h3>
+      <div id="steps"></div>
+      <h3>数据导出</h3><p class="muted">当前为R13／Q13／PRETEST-W6。严格保留R11的29题结构和字段，定点更新G1/G3/G4评论、emoji、评论前阅读提示及A题措辞。</p>
+      <label class="option"><input type="checkbox" id="currentOnly" checked><span>仅导出当前波次／材料版本（取消勾选可导出历史全部记录）</span></label>
+      <div class="actions" style="flex-wrap:wrap;justify-content:flex-start">
+        <button data-export="wide.csv" class="btn btn-secondary">宽表CSV</button>
+        <button data-export="participants.csv" class="btn btn-secondary">样本流CSV</button>
+        <button data-export="responses.csv" class="btn btn-secondary">长表回答CSV</button>
+        <button data-export="events.csv" class="btn btn-secondary">事件日志CSV</button>
+        <button id="manifestBtn" class="btn btn-secondary">材料哈希清单</button>
+      </div>
+      <pre id="manifest" class="notice hidden" style="white-space:pre-wrap;overflow:auto"></pre>
+    </section>
+  </main>
+  <script src="/admin.js?v=2.2.0" defer></script>
+</body>
+</html>

@@ -1,0 +1,134 @@
+{
+  "checked_at": "2026-09-06T07:08:53.434151+00:00",
+  "deployment_version": "netlify-fullstack-v2.0",
+  "revision_id": "R9",
+  "wave_id": "PRETEST-W2",
+  "local_api_tests": 12,
+  "failures": 0,
+  "javascript_syntax_files": 12,
+  "shared_city_account_images_avatars_unchanged": true,
+  "old_sql_migration_unchanged": true,
+  "comment_counts": {
+    "G1": 6,
+    "G2": 6,
+    "G3": 6,
+    "G4": 6
+  },
+  "comment_total_codepoints": {
+    "G1": 315,
+    "G2": 309,
+    "G3": 314,
+    "G4": 328
+  },
+  "docx_pages_visually_checked": 14,
+  "docx_comments_exact_match": true,
+  "material_config_matches_code": true,
+  "xlsx_sheets": 8,
+  "browser_checks": [
+    {
+      "width": 390,
+      "group": "G2",
+      "flow": "passed",
+      "pageerrors": [],
+      "open_saved": true,
+      "open_skip": false
+    },
+    {
+      "width": 320,
+      "group": "G2",
+      "flow": "passed",
+      "pageerrors": [],
+      "open_saved": false,
+      "open_skip": true
+    },
+    {
+      "admin": "passed",
+      "export_rows": 4,
+      "viewport_widths": [
+        320,
+        390,
+        768,
+        1366
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "file": "avatar_c1.png",
+      "width": 640,
+      "height": 640,
+      "sha256": "aa28fdfd326d677fca3b0a68326c36d7a689cdd73f72258f740c130c4dc572de",
+      "unchanged_from_R8": true
+    },
+    {
+      "file": "avatar_c2.png",
+      "width": 640,
+      "height": 640,
+      "sha256": "cf12ffe18ac98e0c7ad90bae353a32faf297b9b18a9d7dd51658b6def06e3f67",
+      "unchanged_from_R8": true
+    },
+    {
+      "file": "avatar_c3.png",
+      "width": 640,
+      "height": 640,
+      "sha256": "dab31674a9562ce5ddff8637a3d9bca9fc3e2c9516651d0066dfbd9f554ad87f",
+      "unchanged_from_R8": true
+    },
+    {
+      "file": "avatar_c4.png",
+      "width": 640,
+      "height": 640,
+      "sha256": "71222091b6d217d527ae3c02b7e33ec180daaaa95b978d4ad60bfa8e5d7b2fe1",
+      "unchanged_from_R8": true
+    },
+    {
+      "file": "avatar_c5.png",
+      "width": 640,
+      "height": 640,
+      "sha256": "1d34a38c54069c140270450b1b4ec6dcfbfeaece2884e16dd5b54e9bc6ee55ff",
+      "unchanged_from_R8": true
+    },
+    {
+      "file": "avatar_c6.png",
+      "width": 640,
+      "height": 640,
+      "sha256": "4df35e1b069130796416b4dbb515057ba5d0594ca4429b85a2b371f9ddc558cb",
+      "unchanged_from_R8": true
+    },
+    {
+      "file": "avatar_publisher.png",
+      "width": 512,
+      "height": 512,
+      "sha256": "2d2364858a8041acd8845bcab5be4b1d3f2d82516fb2966caefb6c0567807347",
+      "unchanged_from_R8": true
+    },
+    {
+      "file": "i01.png",
+      "width": 1086,
+      "height": 1448,
+      "sha256": "80acb8bdbe3dc745a872bb8bd738b0dbc8b4bc8a8e77ea3acacbd52643e6e29d",
+      "unchanged_from_R8": true
+    },
+    {
+      "file": "i02.png",
+      "width": 1086,
+      "height": 1448,
+      "sha256": "9ad08733887b72fe7e0c31c88c66cbf675b5e8c50fc22aa0cfa7a2197e1ca3dd",
+      "unchanged_from_R8": true
+    },
+    {
+      "file": "i03.png",
+      "width": 1086,
+      "height": 1448,
+      "sha256": "1df48bec21b8ec9123b1648ae53edc256e393582a8447c7f44d3e69350209bfd",
+      "unchanged_from_R8": true
+    }
+  ],
+  "not_verified": [
+    "live Netlify deployment",
+    "npm install / production SDK bundling",
+    "PostgreSQL advisory lock concurrency",
+    "real phone / WeChat browser",
+    "human manipulation validity"
+  ]
+}
