@@ -1,0 +1,22 @@
+
+> chengwan-h5-netlify-fullstack@2.5.0 build
+> npm run sync:config && npm run validate && npm run build:manifest
+
+
+> chengwan-h5-netlify-fullstack@2.5.0 sync:config
+> node scripts/sync-config.mjs
+
+config synced: PRETEST-W6/R13
+
+> chengwan-h5-netlify-fullstack@2.5.0 validate
+> node scripts/validate.mjs
+
+RELEASE WARNING: researcher_contact has not been provided; researcher must complete ethical review/contact information before recruitment.
+RELEASE WARNING: contact_email has not been provided; researcher must complete ethical review/contact information before recruitment.
+RELEASE WARNING: ethics_approval has not been provided; researcher must complete ethical review/contact information before recruitment.
+R13/Q13 validation passed: exact R11 29-item structure/variables retained; targeted materials/A wording updated; reading prompt added; Q26 retained; formal sample plan documented.
+
+> chengwan-h5-netlify-fullstack@2.5.0 build:manifest
+> node scripts/build-manifest.mjs
+
+material manifest: 28 files

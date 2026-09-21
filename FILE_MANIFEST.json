@@ -1,7 +1,9 @@
 {
   "version": "V2.5/R13/Q13",
   "wave_id": "PRETEST-W6",
-  "file_count": 99,
+  "packaging": "git-repository-export",
+  "source_archive_sha256": "ba7a2e0f5c9f8946008fba46eb648dea20b1e71c46537ef0448d45f8901554f3",
+  "file_count": 105,
   "files": [
     {
       "path": ".env.example",
@@ -9,9 +11,14 @@
       "size": 187
     },
     {
+      "path": ".gitattributes",
+      "sha256": "edbc57f925526065dc3893fd6ebf1718bcfff21c42114e2858bcb762bfa32e64",
+      "size": 228
+    },
+    {
       "path": ".gitignore",
-      "sha256": "2d4ec66d180e91c36db8195c46b34cd4b98a4daa0cf5ef2436f0ce2416f297c8",
-      "size": 39
+      "sha256": "e9f5e24fa7ce649263a787bc4c66e64cc779ee861bbcefd72c4c57da5ddc8ce9",
+      "size": 653
     },
     {
       "path": ".node-version",
@@ -22,6 +29,11 @@
       "path": "README.md",
       "sha256": "ab9c01b787690e30346680cc49087855a503e6107731ced451414d14803054a6",
       "size": 1887
+    },
+    {
+      "path": "REPOSITORY_GUIDE.md",
+      "sha256": "d923b97c7f938666e526d95694afad29a52ff9a673f6c7e4f6058de2e4e6f569",
+      "size": 5821
     },
     {
       "path": "SECURITY.md",
@@ -154,7 +166,7 @@
       "size": 2533
     },
     {
-      "path": "docs/history_Q11/Q10_Q11题项对照.csv",
+      "path": "docs/history_Q11/Q10_Q11ΘóÿΘí╣σ»╣τàº.csv",
       "sha256": "dbe533cb3a71b2f162f2575d23c6ed91597f0893bedb6c6327db6a41f09e51b7",
       "size": 6267
     },
@@ -409,22 +421,22 @@
       "size": 14597
     },
     {
-      "path": "reference/03_计分与调节分析说明.md",
+      "path": "reference/03_Φ«íσêåΣ╕ÄΦ░âΦèéσêåµ₧ÉΦ»┤µÿÄ.md",
       "sha256": "1dd27335cef9991762271b26bf8af1ee80dd430007da6bbffc4a9e8739735dda",
       "size": 870
     },
     {
-      "path": "reference/05_编程接入与版本迁移说明.md",
+      "path": "reference/05_τ╝ûτ¿ïµÄÑσàÑΣ╕Äτëêµ£¼Φ┐üτº╗Φ»┤µÿÄ.md",
       "sha256": "712f4110940999e987243631086839d4b77b226f997cb4020f244db72db6b362",
       "size": 485
     },
     {
-      "path": "reference/06_29项问卷纯文本.txt",
+      "path": "reference/06_29Θí╣Θù«σì╖τ║»µûçµ£¼.txt",
       "sha256": "ce5f883ccf0560f1d4f66634d6afc97783c3bae526faf59e771e6eb6dbf8a9d2",
       "size": 4309
     },
     {
-      "path": "reference/29项题目字典.csv",
+      "path": "reference/29Θí╣Θóÿτ¢«σ¡ùσà╕.csv",
       "sha256": "8b57c55001b42309c1f1237e68c008590955c7fd87625fd020079667d0af4e17",
       "size": 6619
     },
@@ -449,9 +461,29 @@
       "size": 6264
     },
     {
-      "path": "reference/分析宽表_空模板.csv",
+      "path": "reference/σêåµ₧Éσ«╜Φí¿_τ⌐║µ¿íµ¥┐.csv",
       "sha256": "7dcc81eb72af58ed5de04c5c18b8d5de995068b3c3e683794efe154ae651b4f3",
       "size": 1654
+    },
+    {
+      "path": "repository_export/QA.md",
+      "sha256": "7a52fa21b764a4070512d408cf8ab919ca9f3481abdc43391cd8080d3f223ee6",
+      "size": 2084
+    },
+    {
+      "path": "repository_export/SOURCE_MANIFEST.json",
+      "sha256": "fff5839bad1599ab876e02002e649684e7120cb3188245101cca716b9ca54078",
+      "size": 16966
+    },
+    {
+      "path": "repository_export/npm_build.txt",
+      "sha256": "30df9509514faf55499fc7473fcd7012b3019728a0633f22a86da967f586bc4e",
+      "size": 1010
+    },
+    {
+      "path": "repository_export/npm_test.txt",
+      "sha256": "f3b0db53df8d83af210ba11df32a35ac96d12b2b802d6bad19418dd4e89b984f",
+      "size": 7175
     },
     {
       "path": "scripts/build-manifest.mjs",

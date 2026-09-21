@@ -1,4 +1,45 @@
+# Dependencies and Netlify local state
 node_modules/
 .netlify/
+
+# Private environment / authentication files; only the example is public
 .env
+.env.*
+!.env.example
+.npmrc
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Real participant exports, local databases and private storage
+/data/
+/exports/
+/private/
+/backups/
+experiment_wide*.csv
+experiment_wide*.xlsx
+responses.csv
+sample_flow.csv
+events.csv
+*.sqlite
+*.sqlite3
+*.db
+*.db-shm
+*.db-wal
+
+# New local build/test artifacts (upstream archived reports remain tracked)
+/coverage/
+/test-results/
+/playwright-report/
+/tmp/
+*.log
+
+# OS and editor local files
 .DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+__pycache__/
+*.pyc

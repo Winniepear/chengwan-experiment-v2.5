@@ -1,0 +1,8 @@
+# Preserve the exact bytes of this audited V2.5 source snapshot on all OSes.
+# In particular, do not let Windows CRLF conversion change stimulus hashes.
+* -text
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.zip binary
